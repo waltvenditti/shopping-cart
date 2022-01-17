@@ -1,0 +1,58 @@
+* {
+  border: 1px solid black;
+}
+
+header {
+  display: flex;
+}
+
+header a {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+h5 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.HomePage {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#HomePageShopLink {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.Home {
+  margin-left: auto;
+}
+
+.SideCart {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.ShopCards {
+  display: flex;
+  flex-direction: column;
+}
+
+.ShopMain {
+  display: flex;
+}
