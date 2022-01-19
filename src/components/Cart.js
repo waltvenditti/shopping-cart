@@ -5,7 +5,10 @@ const Cart = () => {
   return (
     <div>
       <NavBar />
-      <p>CART</p>
+      <h2>CART</h2>
+      <div className="Cart">
+        
+      </div>
     </div>
   )
 }

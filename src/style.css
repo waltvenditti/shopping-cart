@@ -16,10 +16,6 @@ h1 {
   margin-bottom: 0;
 }
 
-h3 {
-  margin-top: 0;
-}
-
 h5 {
   margin-top: 0;
   margin-bottom: 10px;
@@ -46,6 +42,19 @@ h5 {
   margin-left: auto;
   display: flex;
   flex-direction: column;
+  width: 150px;
+}
+
+.SideCart p {
+  text-align: center;
+}
+
+.SideCart h4 {
+  text-align: center;
+}
+
+#SideCartButton {
+  width: 100%;
 }
 
 .ShopCards {
@@ -55,4 +64,41 @@ h5 {
 
 .ShopMain {
   display: flex;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ShopMain h3 {
+  margin-bottom: 0;
+}
+
+.ProductCard {
+  display: flex;
+  padding: 16px;
+  min-width: 700px;
+  align-items: center;
+  margin-top: 16px;
+  margin-left: 8px;
+}
+
+.ProductCard img {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.ProductCard input {
+  height: 20px;
+  width: 60px;
+  margin-left: auto;
+  margin-right: 4px;
+}
+
+.ProductCard form {
+  margin-left: auto;
+}
+
+.ProductCard span {
+  margin-left: 0;
+  margin-right: 16px;
 }
