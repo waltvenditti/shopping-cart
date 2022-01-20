@@ -6,7 +6,7 @@ import SideCart from "./SideCart";
 
 const Shop = (props) => {
   return (
-    <div>
+    <div className="ShopDiv">
       <NavBar />
       <h2>Store</h2>
       <div className="ShopMain">

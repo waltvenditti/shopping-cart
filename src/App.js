@@ -1,5 +1,6 @@
 import NavBar from "./components/NavBar";
 import { Link } from "react-router-dom";
+import SkoomaDen from './skooma-den.jpeg';
 
 function App() {
   return (
@@ -7,8 +8,8 @@ function App() {
       <NavBar />
       <div className="HomePage">
         <h2>The Skooma Den</h2>
-        <h3>Vendor of Fine Cognitive Enhancers</h3>
-
+        <img src={SkoomaDen} alt="Screenshot from Morrowind" width="800px"/>
+        <h3>Vendor of Cognitive Enhancers</h3>
         <h5>
           Nootropics, Chemicals, and Fine Herbs 
         </h5>

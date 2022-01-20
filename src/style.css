@@ -1,19 +1,45 @@
 * {
-  border: 1px solid black;
+  background-color: rgb(196, 149, 84);
+  color: rgb(255, 248, 220);
+
 }
 
 header {
   display: flex;
+  background-color: rgb(172, 125, 60);
+  border-bottom: 4px solid rgb(102, 46, 6);
+  padding-top: 24px;
+  padding-bottom: 48px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+html {
+  padding: 0;
+}
+
+body {
+  margin: 0;
 }
 
 header a {
   display: flex;
   align-items: center;
+  margin-right: 8px;
+  text-decoration: none;
+  border: 2px solid rgb(102, 46, 6);
+  padding-left: 4px;
+  padding-right: 4px;
+  width: 60px;
+  justify-content: center;
+  font-weight: bold;
+  border-radius: 6px;
 }
 
 h1 {
   margin-top: 0;
   margin-bottom: 0;
+  background-color: rgb(172, 125, 60);
 }
 
 h5 {
@@ -23,7 +49,7 @@ h5 {
 }
 
 .HomePage {
-  padding-top: 80px;
+  padding-top: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,10 +58,20 @@ h5 {
 #HomePageShopLink {
   margin-top: 50px;
   margin-bottom: 60px;
+  text-decoration: none;
+  border: 2px solid rgb(102, 46, 6);
+  padding: 8px;
+  border-radius: 6px;
+  background-color: rgb(172, 125, 60);
+  font-weight: bold;
 }
 
 .Home {
   margin-left: auto;
+}
+
+.ShopDiv h2 {
+  text-align: center;
 }
 
 .SideCart {
@@ -43,18 +79,28 @@ h5 {
   display: flex;
   flex-direction: column;
   width: 150px;
+  background-color: rgb(172, 125, 60);
+  border: 1px solid black;
 }
 
 .SideCart p {
   text-align: center;
+  background-color: rgb(172, 125, 60);
+}
+
+.SideCart div {
+  background-color: rgb(172, 125, 60);
 }
 
 .SideCart h4 {
   text-align: center;
+  background-color: rgb(172, 125, 60);
 }
 
 #SideCartButton {
   width: 100%;
+  background-color: rgb(172, 125, 60);
+  border: 2px solid black;
 }
 
 .SideCartList {
@@ -66,8 +112,10 @@ h5 {
 }
 
 .ShopCards {
+  border: 1px solid black;
   display: flex;
   flex-direction: column;
+  background-color: rgb(172, 125, 60);
 }
 
 .ShopMain {
@@ -88,27 +136,47 @@ h5 {
   align-items: center;
   margin-top: 16px;
   margin-left: 8px;
+  background-color: rgb(172, 125, 60);
 }
 
 .ProductCard img {
   margin-left: 16px;
   margin-right: 16px;
+  background-color: rgb(196, 149, 84);
+  border: 1px solid black;
+  padding: 4px;
+  border-radius: 6px;
+}
+
+.ProductCard p:nth-of-type(2) {
+  margin-left: auto;
 }
 
 .ProductCard input {
   height: 20px;
   width: 60px;
-  margin-left: auto;
   margin-right: 4px;
+  background-color: rgb(172, 125, 60);
+}
+
+.ProductCard p {
+  background-color: rgb(172, 125, 60);
 }
 
 .ProductCard form {
-  margin-left: auto;
+  margin-left: 8px;
+  background-color: rgb(172, 125, 60);
 }
 
 .ProductCard span {
   margin-left: 0;
   margin-right: 16px;
+  background-color: rgb(172, 125, 60);
+}
+
+.ProductCard button {
+  background-color: rgb(172, 125, 60);
+  border: 2px solid black;
 }
 
 .CartCard {
