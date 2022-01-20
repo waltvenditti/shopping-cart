@@ -87,6 +87,31 @@ const RouteSwitch = () => {
     setRerender(!rerender);
   }
 
+  const useOnChangeCartCount = (event) => {
+    const itemCount = parseInt(event.target.value);
+    const name = event.target.name;
+    const index = getProdIndex(name);
+    const newProducts = products;
+    const newProd = products[index];
+    newProd.count = itemCount;
+    newProducts[index] = newProd;
+    setProducts(newProducts);
+    setRerender(!rerender);
+  }
+
+  const useOnClickRemove = (event) => {
+    console.log(event.target.name);
+    const name = event.target.name;
+    const index = getProdIndex(name);
+    const newProducts = products;
+    const newProd = products[index];
+    newProd.count = 0;
+    newProducts[index] = newProd;
+    setProducts(newProducts);
+    setProducts(newProducts);
+    setRerender(!rerender);
+  }
+
   const getProdIndex = (name) => {
     let index;
     for (let i = 0; i < products.length; i++) {
@@ -103,7 +128,7 @@ const RouteSwitch = () => {
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/shop" element={<Shop products={products} rerender={rerender} onClickAdd={useOnClickAdd}/>} />
-        <Route path="/cart" element={<Cart />} />
+        <Route path="/cart" element={<Cart products={products} onChangeCartCount={useOnChangeCartCount} onClickRemove={useOnClickRemove} rerender={rerender}/>} />
       </Routes>
     </BrowserRouter>
   );

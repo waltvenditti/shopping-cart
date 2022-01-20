@@ -26,7 +26,7 @@ const SideCart = (props) => {
       <h4>Shopping Cart</h4>
       <div>
         {cartProducts.map((cartProduct) => {
-          return <li key={cartProduct.id}><p>x {cartProduct.count}g {cartProduct.name}</p></li>
+          return <li className="SideCartList" key={cartProduct.id}><p>x {cartProduct.count}g {cartProduct.name}</p></li>
         })}
       </div>
       <Link to="/cart">
