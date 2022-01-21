@@ -36,6 +36,14 @@ header a {
   border-radius: 6px;
 }
 
+header a:hover {
+  background-color: tan;
+}
+
+header a:active {
+  background-color: rgb(102, 46, 6);
+}
+
 h1 {
   margin-top: 0;
   margin-bottom: 0;
@@ -278,6 +286,14 @@ h5 {
   border-radius: 6px;
 }
 
+.CartCard button:hover {
+  background-color: tan;
+}
+
+.CartCard button:active {
+  background-color: rgb(102, 46, 6);
+}
+
 .CartCard form {
   margin-left: 16px;
 }
@@ -314,5 +330,13 @@ h5 {
   margin-bottom: 8px;
   font-weight: bold;
   border-radius: 6px;
+}
+
+.CheckOut button:hover {
+  background-color: tan;
+}
+
+.CheckOut button:active {
+  background-color: rgb(102, 46, 6);
 }
 
