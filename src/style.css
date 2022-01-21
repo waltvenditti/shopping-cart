@@ -1,7 +1,7 @@
 * {
   background-color: rgb(196, 149, 84);
   color: rgb(255, 248, 220);
-
+  font-family: arial, sans-serif;
 }
 
 header {
@@ -48,15 +48,19 @@ h5 {
   text-align: center;
 }
 
+#h2Cart {
+  text-align: center;
+}
+
 .HomePage {
-  padding-top: 40px;
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 #HomePageShopLink {
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 60px;
   text-decoration: none;
   border: 2px solid rgb(102, 46, 6);
@@ -81,10 +85,11 @@ h5 {
   width: 150px;
   background-color: rgb(172, 125, 60);
   border: 1px solid black;
+  align-items: center;
 }
 
 .SideCart p {
-  text-align: center;
+  padding-left: 12px;
   background-color: rgb(172, 125, 60);
 }
 
@@ -98,9 +103,26 @@ h5 {
 }
 
 #SideCartButton {
-  width: 100%;
+  width: 100px;
+  background-color: rgb(196, 149, 84);
+  border: 2px solid rgb(102, 46, 6);
+  justify-content: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+#SideCartButton:hover {
+  background-color: tan;
+}
+
+#SideCartButton:active {
+  background-color: rgb(102, 46, 6);
+}
+
+.SideCart a {
   background-color: rgb(172, 125, 60);
-  border: 2px solid black;
 }
 
 .SideCartList {
@@ -127,6 +149,13 @@ h5 {
 
 .ShopMain h3 {
   margin-bottom: 0;
+  margin-top: 60px;
+  background-color: rgb(172, 125, 60);
+  text-align: center;
+}
+
+.ShopMain h3:first-child {
+  margin-top: 16px;
 }
 
 .ProductCard {
@@ -156,7 +185,7 @@ h5 {
   height: 20px;
   width: 60px;
   margin-right: 4px;
-  background-color: rgb(172, 125, 60);
+  border: 1px solid silver;
 }
 
 .ProductCard p {
@@ -175,8 +204,33 @@ h5 {
 }
 
 .ProductCard button {
+  border: 2px solid rgb(102, 46, 6);
+  width: 100px;
+  justify-content: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.ProductCard button:hover {
+  background-color: tan;
+}
+
+.ProductCard button:active {
+  background-color:rgb(102, 46, 6)
+}
+
+.CartCards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.AllCartCards {
+  width: 800px;
+  border: 1px solid black;
   background-color: rgb(172, 125, 60);
-  border: 2px solid black;
 }
 
 .CartCard {
@@ -185,7 +239,16 @@ h5 {
   min-width: 700px;
   align-items: center;
   margin-top: 16px;
-  margin-left: 8px;
+  background-color: rgb(172, 125, 60);
+}
+
+.CartCard p {
+  background-color: rgb(172, 125, 60);
+}
+
+.CartCard form,
+.CartCard span {
+  background-color: rgb(172, 125, 60);
 }
 
 .CartCard p:first-child {
@@ -202,6 +265,17 @@ h5 {
   width: 60px;
   margin-left: auto;
   margin-right: 4px;
+  border: 1px solid silver;
+}
+
+.CartCard button {
+  border: 2px solid rgb(102, 46, 6);
+  width: 80px;
+  justify-content: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-weight: bold;
+  border-radius: 6px;
 }
 
 .CartCard form {
@@ -220,14 +294,25 @@ h5 {
 .CheckOut {
   display: flex;
   flex-direction: column;
+  background-color: rgb(172, 125, 60);
 }
 
 .CheckOut p {
   margin-left: auto;
+  background-color: rgb(172, 125, 60);
+  margin-right: 8px;
 }
 
 .CheckOut button {
-  width: 100px;
   margin-left: auto;
+  border: 2px solid rgb(102, 46, 6);
+  width: 100px;
+  justify-content: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  border-radius: 6px;
 }
 

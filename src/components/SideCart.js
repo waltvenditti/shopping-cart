@@ -30,7 +30,7 @@ const SideCart = (props) => {
         })}
       </div>
       <Link to="/cart">
-      <button id="SideCartButton">Edit Cart / Checkout</button>
+      <button id="SideCartButton">Go To Cart</button>
       </Link>
     </div>
   )

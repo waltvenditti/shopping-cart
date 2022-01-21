@@ -6,7 +6,7 @@ const Cart = (props) => {
   return (
     <div>
       <NavBar />
-      <h2>Shopping Cart</h2>
+      <h2 id="h2Cart">Shopping Cart</h2>
       <div className="CartMain">
         <div className="CartCards">
           <CartCard 
