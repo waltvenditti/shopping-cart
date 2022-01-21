@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import { useState } from 'react';
 import App from "./App";
 import Shop from "./components/Shop";
@@ -124,13 +124,13 @@ const RouteSwitch = () => {
 
   
   return (
-    <BrowserRouter>
+    <HashRouter basename='/'>
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/shop" element={<Shop products={products} rerender={rerender} onClickAdd={useOnClickAdd}/>} />
         <Route path="/cart" element={<Cart products={products} onChangeCartCount={useOnChangeCartCount} onClickRemove={useOnClickRemove} rerender={rerender}/>} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
