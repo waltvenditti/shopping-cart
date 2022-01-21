@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.970bcd49.css",
+    "main.js": "/shopping-cart/static/js/main.9183b895.js",
+    "static/media/skooma-den.jpeg": "/shopping-cart/static/media/skooma-den.9c9b40c9e3c59ff56ae9.jpeg",
+    "static/media/bacopa-monnieri.jpg": "/shopping-cart/static/media/bacopa-monnieri.491a77e29a9ed211d73e.jpg",
+    "static/media/salvia-officinalis2.jpeg": "/shopping-cart/static/media/salvia-officinalis2.e10c787633675f08cb33.jpeg",
+    "static/media/panax-ginseng.jpeg": "/shopping-cart/static/media/panax-ginseng.be826de3936fc264c8aa.jpeg",
+    "static/media/piracetam.png": "/shopping-cart/static/media/piracetam.2bd994e96f6bb0707a2f.png",
+    "static/media/caffeine.png": "/shopping-cart/static/media/caffeine.693d9d71e74e1f838886.png",
+    "static/media/theobromine.png": "/shopping-cart/static/media/theobromine.a1f73853822fc08060e5.png",
+    "static/media/phenylpiracetam.png": "/shopping-cart/static/media/phenylpiracetam.adb7498234cefa7e0298.png",
+    "static/media/adrafinil.png": "/shopping-cart/static/media/adrafinil.8719ab48c1778249042e.png",
+    "index.html": "/shopping-cart/index.html",
+    "main.970bcd49.css.map": "/shopping-cart/static/css/main.970bcd49.css.map",
+    "main.9183b895.js.map": "/shopping-cart/static/js/main.9183b895.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.970bcd49.css",
+    "static/js/main.9183b895.js"
+  ]
+}
