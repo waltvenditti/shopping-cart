@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/shopping-cart/static/css/main.970bcd49.css",
+    "main.css": "/shopping-cart/static/css/main.ea10d575.css",
     "main.js": "/shopping-cart/static/js/main.95a97c23.js",
     "static/media/skooma-den.jpeg": "/shopping-cart/static/media/skooma-den.9c9b40c9e3c59ff56ae9.jpeg",
     "static/media/bacopa-monnieri.jpg": "/shopping-cart/static/media/bacopa-monnieri.491a77e29a9ed211d73e.jpg",
@@ -12,11 +12,11 @@
     "static/media/phenylpiracetam.png": "/shopping-cart/static/media/phenylpiracetam.adb7498234cefa7e0298.png",
     "static/media/adrafinil.png": "/shopping-cart/static/media/adrafinil.8719ab48c1778249042e.png",
     "index.html": "/shopping-cart/index.html",
-    "main.970bcd49.css.map": "/shopping-cart/static/css/main.970bcd49.css.map",
+    "main.ea10d575.css.map": "/shopping-cart/static/css/main.ea10d575.css.map",
     "main.95a97c23.js.map": "/shopping-cart/static/js/main.95a97c23.js.map"
   },
   "entrypoints": [
-    "static/css/main.970bcd49.css",
+    "static/css/main.ea10d575.css",
     "static/js/main.95a97c23.js"
   ]
 }
