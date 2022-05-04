@@ -1,70 +1,18 @@
-# Getting Started with Create React App
+Shopping Cart App
+=================
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+see live: https://waltvenditti.github.io/shopping-cart/
 
-## Available Scripts
+This was created for The Odin Project, during the course on React in the JavaScript part of the cirriculum. It pays homage to both my history as a chemist and my love of TES III - hence "The Skooma Den". 
 
-In the project directory, you can run:
+The design of the app is not particularly complex. I used functions instead of classes, primarily because functions seemed more complex to me and I wanted to get some experience working with them. A sort of master array of each product, plus its price and "count" (set to 0 by default) is stored in state in the RouteSwitch file, which serves as a sort of top-level for the entire app. I defined some functions here which are then passed to the components, eventually ending up as callbacks for certain events like changing an item count in a form. 
 
-### `npm start`
+Sometimes React would not refresh the page when something like an item count was changed, so I had to create dummy variables which would be switched from true to false in the component's callback. The various functions I wrote to update item counts in the master array got somewhat complicated, and I wonder if they would be considered sufficiently decoupled by the standards of an experienced React programmer. Once I'm finished going through The Odin Project's course on NodeJS, I plan to revisit React and properly reconcile everything I'm expected to know from these lessons. In that case refactoring the code here is on a long-term to-do list. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For those who are curious what the various nootropics are:
+theobromine: a compound in the same family as caffeine (with milder effects), found in dark chocolate
+adrafinil: wakefulness-promoting agent
+piracetam & phenylpiracetam: both are racetam-class drugs, alleged to do all sorts of good stuff like reduce anxiety, improve memory and cognition, improve mood, and improve sleep quality, with minimal side-effects. Phenylpiracetam was invented by the Soviets and was used by their cosmonauts to remain sharp during space flights. 
+bacopa monnieri: an herb alleged to improve cognition (memory, concentration, motivation, and creativity). 
+panax ginseng: an herb said to improve cognition and energy levels. Maybe recognized due to certain energy drinks advertising it as an ingredient. 
+salvia officinalis: AKA "common sage". A plant with a long history of medicinal and culinary use. 
