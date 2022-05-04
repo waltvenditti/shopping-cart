@@ -9,6 +9,8 @@ The design of the app is not particularly complex. I used functions instead of c
 
 Sometimes React would not refresh the page when something like an item count was changed, so I had to create dummy variables which would be switched from true to false in the component's callback. The various functions I wrote to update item counts in the master array got somewhat complicated, and I wonder if they would be considered sufficiently decoupled by the standards of an experienced React programmer. Once I'm finished going through The Odin Project's course on NodeJS, I plan to revisit React and properly reconcile everything I'm expected to know from these lessons. In that case refactoring the code here is on a long-term to-do list. 
 
+I know the app is quite ugly and makes use of too much brown. I'll be changing that at some point in the future as well. 
+
 For those who are curious what the various nootropics are:
 theobromine: a compound in the same family as caffeine (with milder effects), found in dark chocolate
 adrafinil: wakefulness-promoting agent
